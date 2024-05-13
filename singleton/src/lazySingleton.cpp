@@ -9,7 +9,7 @@ LazySingleton::LazySingleton() {
 
 LazySingleton* LazySingleton::instance() {
     // not thread safe!
-    if ( nullptr == singleton ){
+    if ( nullptr == singleton ) {
         singleton = new LazySingleton();
     }
     return singleton;
