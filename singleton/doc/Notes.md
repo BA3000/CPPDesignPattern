@@ -5,3 +5,4 @@ If you want some classes to have only one instance during the lifetime of your p
 ## Reference
 
 1. [What are drawbacks or disadvantages of singleton pattern? [closed]](https://stackoverflow.com/questions/137975/what-are-drawbacks-or-disadvantages-of-singleton-pattern)
+2. [Singleton: How should it be used](https://stackoverflow.com/questions/86582/singleton-how-should-it-be-used)
