@@ -2,6 +2,11 @@
 
 class LazySingletonTS {
 public:
+    // making deleted functoin public will produce better error messages because compilers check accessibility
+    // before deleted status
+    LazySingletonTS( LazySingletonTS const& )            = delete;
+    LazySingletonTS& operator=( LazySingletonTS const& ) = delete;
+
     // alternatively you can return pointer instead
     static inline LazySingletonTS& instance();
 
@@ -9,8 +14,6 @@ public:
 
 private:
     LazySingletonTS();
-    LazySingletonTS( LazySingletonTS const& );
-    void operator=( LazySingletonTS const& );
 };
 
 inline LazySingletonTS& LazySingletonTS::instance() {
