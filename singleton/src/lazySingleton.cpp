@@ -4,7 +4,7 @@
 LazySingleton* LazySingleton::singleton = nullptr;
 
 LazySingleton::LazySingleton() {
-    std::cout << "[LazySingleton::LazySingleton]" << std::endl;
+    std::cout << "[LazySingleton::LazySingleton] ctor is called!" << std::endl;
 }
 
 LazySingleton* LazySingleton::instance() {

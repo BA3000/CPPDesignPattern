@@ -2,7 +2,7 @@
 #include <iostream>
 
 LazySingletonTS::LazySingletonTS() {
-    std::cout << "[LazySingletonTS::LazySingletonTS] lazySingletonTS ctor called" << std::endl;
+    std::cout << "[LazySingletonTS::LazySingletonTS] lazySingletonTS ctor is called" << std::endl;
 }
 
 void LazySingletonTS::Dosomething() {
