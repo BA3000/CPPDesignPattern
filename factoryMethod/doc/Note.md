@@ -17,5 +17,5 @@ For example, imagine a game where you need different types of characters: warrio
 
 ## References
 
-1. [Factory Method on Refactoring.Guru](https://refactoring.guru/design-patterns/factory-method)
+1. [Factory Method](https://refactoring.guru/design-patterns/factory-method)
 2. [Factory Pattern. When to use factory methods?](https://stackoverflow.com/questions/69849/factory-pattern-when-to-use-factory-methods)
