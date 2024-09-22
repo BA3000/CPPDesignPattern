@@ -4,6 +4,12 @@ The Factory Method is a creational design pattern that provides an interface for
 
 For example, imagine a game where you need different types of characters: warriors, wizards, and archers. Instead of hardcoding object creation (e.g., using `new` everywhere), a Factory Method allows you to delegate this process to subclasses, making your code more flexible and easier to extend.
 
+## When to Use Factory Method
+
+* When you don't know beforehand the exact types and dependencies of the projects your code should work with;
+* When providing frameworks or libraries with a way to extend its internal components;
+* When you want to save system resources by reusing existing objects instead of creating new objects (e.g., object pool).
+
 ## Pros
 
 1. It provides flexibility in object creation, allowing subclasses to decide which class to instantiate;
